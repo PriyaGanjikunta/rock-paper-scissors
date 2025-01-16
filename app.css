@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.hd{
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    margin-top: 20px;
+    color: rgb(112, 19, 112);
+}
+.bgCon{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 80px;
+}
+img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.num{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5rem;
+}
+.message{
+    text-align: center;
+    margin-top: 5rem;
+}
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.2rem solid black;
+}
+.choice{
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+}
+#msg1{
+    visibility: hidden;
+    font-size: 1.3rem;
+}
+#msg2{
+    visibility: hidden;
+    font-size: 1.3rem;
+}
